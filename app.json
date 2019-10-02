@@ -3,23 +3,23 @@
   "description": "An easy to install Modmail bot for Discord - DM to contact mods!",
   "repository": "https://github.com/TERMINATOR-THOR/modmailbot",
   "env": {
-    "TOKEN": {
+    "token": {
       "description": "Your discord bot's token.",
       "required": true
     },
-    "GUILD_ID": {
+    "mailGuildId": {
       "description": "The id for the server you are hosting this bot for.",
       "required": true
     },
-    "OWNERS": {
+    "mainGuildId": {
       "description": "Comma separated user IDs of people that are allowed to use owner only commands. (eval).",
       "required": true
     },
-    "MONGO_URI": {
+    "logChannelId": {
       "description": "Mongo DB connection URI for self-hosting your data.",
       "required": true
     },
-    "LOG_URL": {
+    "status": {
       "description": "The url of the log viewer app for viewing self-hosted logs.",
       "required": true
     }
